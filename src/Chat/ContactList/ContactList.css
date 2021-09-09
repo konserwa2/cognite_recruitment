@@ -1,0 +1,25 @@
+.contact-list__item {
+  display: flex;
+  align-items: center;
+
+  padding: 1rem;
+
+  cursor: pointer;
+
+  border: 1px solid grey;
+}
+
+.contact-list__item--selected {
+  background-color: lightblue;
+  border-color: lightblue;
+}
+
+.contact-list__item:hover {
+  border-color: blue;
+  background-color: blue;
+  color: white;
+}
+
+.contact-list__item .ant-avatar {
+  margin-right: 1rem;
+}

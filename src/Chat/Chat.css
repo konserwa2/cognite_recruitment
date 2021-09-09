@@ -1,0 +1,22 @@
+.chat {
+  display: flex;
+
+  height: 100%;
+  width: 100%;
+}
+
+.chat__conversation {
+  width: 60%;
+}
+
+.chat__conversation-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 60%;
+}
+
+.chat__contact-list {
+  width: 40%;
+}
